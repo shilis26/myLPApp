@@ -19,4 +19,4 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Establecer el comando de inicio
-ENTRYPOINT ["dotnet", "myLPApp.dll"]
+ENTRYPOINT ["dotnet", "myLPApp.sln"]
